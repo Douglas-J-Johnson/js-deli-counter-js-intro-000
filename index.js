@@ -1,5 +1,5 @@
 function takeANumber(line, person) {
-  var position = 0   
+  var position = 0
 
   if(line.length > 0) {
     position = line.slice(-1)
