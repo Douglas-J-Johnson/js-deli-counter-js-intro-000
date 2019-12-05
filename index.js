@@ -1,5 +1,9 @@
 function takeANumber(line, person) {
-  var position = line.slice(-1)
+  var position = 0   
+
+  if(line.length > 0) {
+    position = line.slice(-1)
+  }
 
   line.push(position + 1)
   return `Welcome, ${person}. You are number ${position + 1} in line.`
