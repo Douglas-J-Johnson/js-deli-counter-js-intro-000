@@ -1,7 +1,7 @@
 var position = 0
 
-function takeANumber(line, person) {
-  possition++
+function takeANumber(line) {
+  position++
   line.push(position)
   return `Welcome, ${person}. You are number ${position} in line.`
 }
