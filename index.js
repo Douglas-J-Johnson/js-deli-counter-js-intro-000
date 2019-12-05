@@ -1,6 +1,8 @@
 function takeANumber(line, person) {
-  line.push(person)
-  return `Welcome, ${person}. You are number ${line.length} in line.`
+  var position = line.splice(-1)
+
+  line.push(position + 1)
+  return `Welcome, ${person}. You are number ${position + 1} in line.`
 }
 
 function nowServing(line) {
