@@ -3,7 +3,7 @@ var position = 0
 function takeANumber(line) {
   position++
   line.push(position)
-  return `Welcome, you are number ${position} in line.`
+  return `Welcome, you are number ${position}.`
 }
 
 function nowServing(line) {
